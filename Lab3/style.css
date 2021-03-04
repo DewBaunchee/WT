@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 600px;
+}
+
+.block {
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    border: 1px black solid;
+}
+
+#prev {
+    width: 100px;
+}
+
+#next {
+    width: 100px;
+}
+
+#calendar {
+    width: 600px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/helpUs.css">
+    <title>Timeline</title>
+</head>
+<body>
+    <header>
+        <div id="titleContainer">
+            <img src="../assets/images/mainGlobe.png" alt="The History">
+            <a href="../index.html">THE HISTORY</a>
+        </div>
+        <a href="timeline.html" class="navigationElement">Timeline</a>
+        <a href="culturalPower.html" class="navigationElement">Cultural power</a>
+        <a href="helpUs.html" class="navigationElement">Help us</a>
+        <a href="contactUs.html" class="navigationElement">Contact us</a>
+    </header> 
+
+    <form action="" id="helpForm">
+        <div class="form-container">
+        <div class="field-container">
+          <label for="name">Name</label>
+          <input id="name" maxlength="20" type="text" placeholder="YOUR NAME">
+        </div>
+        <div class="field-container">
+          <label for="cardnumber">Card Number</label>
+          <input id="cardnumber" placeholder="XXXX-XXXX-XXXX-XXXX" type="text" pattern="[0-9]*" inputmode="numeric">
+          <svg id="ccicon" class="ccicon" width="750" height="471" viewBox="0 0 750 471" version="1.1"
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      
+          </svg>
+        </div>
+        <div class="field-container">
+          <label for="expirationdate">Expiration</label>
+          <input id="expirationdate" placeholder="MM/YY" type="text" pattern="[0-9]*" inputmode="numeric">
+        </div>
+        <div class="field-container">
+          <label for="securitycode">Security Code</label>
+          <input id="securitycode" placeholder="XXX" type="text" pattern="[0-9]*" inputmode="numeric">
+        </div>
+        <div class="field-container">
+            <input type="button" id="donateBtn" value="Donate!">
+        </div>
+    </form>
+
+</body>
+</html>

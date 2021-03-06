@@ -4,14 +4,17 @@
 }
 
 #container {
-    height: 600px;
+    height: 217px;
 }
 
 .block {
     display: inline-block;
     vertical-align: top;
     height: 100%;
-    border: 1px black solid;
+}
+
+a.block {
+    background: blue;
 }
 
 #prev {
@@ -23,5 +26,22 @@
 }
 
 #calendar {
-    width: 600px;
+    border-spacing: 0;
+}
+
+#calendarTitle {
+    border: 1px black solid;
+    width: 700px;
+    height: 50px;
+}
+
+#calendar th {
+    border: 1px black solid;
+    width: 40px;
+}
+
+#calendar td {
+    border: 1px black solid;
+    width: 40px;
+    text-align: right;
 }

@@ -10,7 +10,9 @@
 </head>
 <body>
 <form method="post">
-    <input type="text" placeholder="Year" pattern="[0-9]+" name="year">
+    <label>
+        <input type="text" placeholder="Year" pattern="[0-9]+" name="year">
+    </label>
     <input type="submit" value="Form calendar">
 </form>
 <div id="container">

@@ -24,6 +24,11 @@ input {
     font-size: 40px;
 }
 
+.monthTitle {
+    color: #FFF;
+    background: #7A7A7A;
+}
+
 .oneMonth th, .oneMonth td {
     border: 1px black solid;
     width: 24px;
@@ -34,9 +39,11 @@ input {
 .oneMonth tr th:nth-child(6), .oneMonth tr th:nth-child(7),
 .oneMonth tr td:nth-child(6), .oneMonth tr td:nth-child(7) {
     color: red;
+    font-weight: bold;
+    background: rgba(255, 8, 0, 0.4);
 }
 
 .otherMonth {
-    background: lightgray;
-    color: black !important;
+    opacity: 0.5;
+    background: #BEBEBE;
 }

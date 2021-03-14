@@ -37,7 +37,8 @@ input {
 }
 
 .oneMonth tr th:nth-child(6), .oneMonth tr th:nth-child(7),
-.oneMonth tr td:nth-child(6), .oneMonth tr td:nth-child(7) {
+.oneMonth tr td:nth-child(6), .oneMonth tr td:nth-child(7),
+.holiday {
     color: red;
     font-weight: bold;
     background: rgba(255, 8, 0, 0.4);

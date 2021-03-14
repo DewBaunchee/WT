@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', serif;
+}
+
+form * {
+    display: block;
+}
+
+#submit {
+    font-size: 20px;
+    padding: 5px 15px;
+    margin: 10px;
+}
+
+#file {
+    margin: 10px;
+}

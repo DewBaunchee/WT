@@ -1,22 +1,17 @@
 <!doctype html>
-<html lang="en">
+<html lang="en,ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Calendar</title>
+    <title>E-mail Refactor</title>
 </head>
 <body>
-<form method="post">
-    <label>
-        <input type="text" placeholder="Year" pattern="-?[0-9]+" name="year">
-    </label>
-    <input type="submit" value="Form calendar">
+<form action="urlRefactor.php" method="post" enctype="multipart/form-data">
+    <input type="file" id="file" name="plainfile">
+    <input id="submit" type="submit" value="Replace URL's">
 </form>
-<div id="container">
-    <?php include_once 'calendar.php' ?>
-</div>
 </body>
 </html>

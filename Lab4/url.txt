@@ -1,0 +1,5 @@
+Сервер SharePoint.	https://TestServer
+Сайт или дочерний сайт сервера SharePoint.	https://TestServer/toplevelsite/subsite
+Образец отчета Company Sales в папке Общие документы в развертывании Windows SharePoint Services или SharePoint Foundation 2010 .	https://TestServer/TestSite/Shared%20Documents/Company%20Sales.rdl
+Образец отчета "Company Sales" (Продажи компании) в папке Documents/Doc на экземпляре Office SharePoint Server или SharePoint Server 2010 .	https://TestServer/TestSite/Documents/Doc/Company%20Sales.rdl
+Образец отчета «Продажи компании» в папке Центр отчетов на экземпляре Office SharePoint Server или SharePoint Server 2010 .	https://TestServer/TestSite/Reports/Doc/Company%20Sales.rdl

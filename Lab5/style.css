@@ -1,0 +1,9 @@
+table {
+    border-spacing: 0;
+    border: 1px black solid;
+}
+
+table * {
+    border: 1px black solid;
+
+}

@@ -19,6 +19,10 @@ function getSQLType($str)
             return "VARCHAR(40)";
         case "number":
             return "INT";
+        case "date":
+            return "DATE";
+        case "time":
+            return "TIME";
         default:
             return false;
     }
@@ -126,6 +130,10 @@ function getRandomValue($type)
             return $string;
         case "number":
             return rand();
+        case "date":
+            return date("Y-m-d", rand());
+        case "time":
+            return date("H:i:s", rand());
         default:
             return false;
     }
